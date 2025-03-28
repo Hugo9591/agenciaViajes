@@ -1,0 +1,36 @@
+//- para que aparezca el contenido en index.pug
+extends ./layout/index
+
+block contenido
+
+    main.container.mt-5
+            .row
+                .col-md-5 
+                    //- clase img-fluid para que no se encime sobre las palabras
+                    img(src="img/nosotros.jpg", alt="Torre", class="img-fluid")
+                .col.md-7
+                    h1= pagina 
+                    blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet semper nisl. Pellentesque ante arcu, pretium nec semper sed, rhoncus vulputate mauris. Praesent posuere facilisis tellus. Ut rhoncus efficitur dolor nec consectetur. Vestibulum pretium augue justo, in porttitor erat imperdiet eget. In hac habitasse platea dictumst. Maecenas urna tortor, faucibus quis malesuada sed, convallis a lorem. Vivamus nec auctor magna.
+
+                    p eu convallis nisl. Aenean tempor varius diam, id pharetra nisi condimentum et. Aliquam mi magna, pulvinar vel tempus eget, sagittis eu ante. In rhoncus felis in ante commodo egestas. Vivamus ullamcorper, enim a aliquet ullamcorper, ex lectus ornare sem, at dignissim leo mi non sapien.
+
+                    p malesuada maximus metus ut cursus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam aliquet metus enim, sed dictum arcu facilisis nec. Aliquam et tempor nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla tincidunt ullamcorper ipsum, et tempus diam pharetra non.
+
+    .listado-iconos 
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="Icono seguridad" class="img-fluid md-4")
+                    h2.mb-4 Seguridad 
+                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam neque harum fugiat natus cum autem modi ipsa voluptatem, sint, itaque eaque possimus sit repellat sequi iure, et aperiam doloribus in.
+
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="Icono destinos" class="img-fluid md-4")
+                    h2.mb-4 Mejores Destinos 
+                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam neque harum fugiat natus cum autem modi ipsa voluptatem, sint, itaque eaque possimus sit repellat sequi iure, et aperiam doloribus in.
+
+
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="Icono precios" class="img-fluid md-4")
+                    h2.mb-4 Mejores Precios 
+                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam neque harum fugiat natus cum autem modi ipsa voluptatem, sint, itaque eaque possimus sit repellat sequi iure, et aperiam doloribus in.

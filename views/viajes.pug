@@ -1,0 +1,8 @@
+extends ./layout/index
+
+block contenido
+
+    h1(class='mt-5 text-center')= pagina 
+    //- p= JSON.stringify(viajes) comprobar si se pasa la informacion s la vista desde paginasController
+    main.container.mt-5
+        include ./layout/bloque_viajes

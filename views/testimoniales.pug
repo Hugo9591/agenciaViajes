@@ -1,0 +1,36 @@
+extends ./layout/index
+
+block contenido
+
+    main.container.mt-5    
+        h1.text-center= pagina
+
+        blockquote.text-center Lee sobre nuestros clientes y sus experiencias 
+        
+        //- testimoniales desde la BD 
+        include ./layout/bloque_testimoniales
+        .row 
+            .col-md-12
+                h2.d-block.w-100.text-center Agrega un Testimonial 
+
+                //- p=JSON.stringify(errores) errores viene de trstimonialesController
+                if(errores)
+                    each error in errores 
+                        .alert.col.alert-danger.text-center= error.mensaje 
+                        //-mensaje es lo que tiene el mensaje de error
+
+            .row.justify-content-center.col
+                .col-md-8 
+                    form(action="/testimoniales" method="POST")
+                        .form-group 
+                            label(for="nombre") Nombre 
+                            //- value es para recibir los valores de nombre, correo mensaje de testimonialController
+                            input#nombre(type="text", placeholder="Nombre", name="nombre", class="form-control", value= nombre)
+                        .form-group 
+                            label(for="correo") Correo Electronico 
+                            input#correo(type="text", placeholder="Correo", name="correo", class="form-control", value= correo)
+                        .form-group 
+                            label(for="mensaje") Mensaje 
+                            textarea#mensaje(class="form-control", name="mensaje", placehoolder="Tu Mensaje", rows=3)= mensaje 
+
+                        input.btn.btn-success.btn-block(type="Submit")

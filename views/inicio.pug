@@ -1,0 +1,39 @@
+//- extends y la ruta del rchivo principal donde tomara bloques de codigo
+extends ./layout/index
+
+block slider 
+    .slider
+        h1 Rio de Janeiro
+        em aventura
+
+block contenido
+    main.container.mt-5
+        h2.text-center.mb-5 Sobre Nosotros
+        .row.mb-5 
+            .col-md-6 
+                p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam consequatur reprehenderit molestias perspiciatis facilis dolorem maiores ducimus totam adipisci, quasi deserunt nesciunt ut maxime tenetur. Corrupti, facere excepturi. Labore obcaecati modi dolores ad tempore, minus laboriosam, consequuntur temporibus ab corporis incidunt asperiores earum doloremque pariatur inventore impedit est reiciendis, quam nulla aliquam nesciunt distinctio? 
+
+                p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut id dignissimos recusandae dolores similique laudantium, optio odio qui. Libero, esse odit. Fugiat laborum excepturi error, quasi enim ut! Dolor
+
+            .col-md-6
+                img(src="/img/inicio_nosotros.jpg", alt="Imagen Nosotros", class="img-fluid")
+
+
+        include ./layout/bloque_viajes
+
+    .descuento
+        .container 
+            .row 
+                .col-md-6 
+                    .contenido 
+                        h3 5% de Descuento 
+                        p.titulo Viaje a Canada 
+                        p.fecha 20 de Marzo del 2024 / 28 de Marzo de 2024
+                        p.precio $2,500 USD 
+
+
+    .container 
+        h2.mt-5.text-center Testimoniales
+        include ./layout/bloque_testimoniales
+                    
+            
