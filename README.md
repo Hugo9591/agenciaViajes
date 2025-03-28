@@ -37,20 +37,19 @@ La pagina principal muestra información sobre la agencia, tres viajes destacado
 # Estructura del proyecto
 
 - /agencia-viajes/
-  - config/        # Configuración de la base de datos
-  - controllers/   # Lógica de negocio y conexión entre modelos y vistas
-  - models/        # Modelos que interactúan con la base de datos
-  - views/         # Plantillas Pug para el frontend
-  - public/        # Archivos estáticos como imágenes y CSS
-  - routes/        # Definición de rutas para las distintas secciones
-  - package.json   # Dependencias y configuración del proyecto
+  - config/         Configuración de la base de datos
+  - controllers/    Lógica de negocio y conexión entre modelos y vistas
+  - models/         Modelos que interactúan con la base de datos
+  - views/          Plantillas Pug para el frontend
+  - public/         Archivos estáticos como imágenes y CSS
+  - routes/         Definición de rutas para las distintas secciones
+  - package.json    Dependencias y configuración del proyecto
 
 # Instalación
 
 - Clonar el repositorio:
 
 git clone https://github.com/Hugo9591/agenciaViajes.git
-cd agencia-viajes
 
 - Instalar dependencias:
 npm install
