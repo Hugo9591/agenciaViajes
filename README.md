@@ -55,12 +55,11 @@ git clone https://github.com/Hugo9591/agenciaViajes.git
 npm install
 
 - Configurar variables de entorno:
-Crear un archivo .env en la raíz con los siguientes datos:
-
-DB_HOST=localhost
-DB_USER=tu_usuario
-DB_PASSWORD=tu_contraseña
-DB_NAME=agencia_viajes
+  - Crear un archivo .env en la raíz con los siguientes datos:
+    - DB_HOST=localhost
+    - DB_USER=tu_usuario
+    - DB_PASSWORD=tu_contraseña
+    - DB_NAME=agencia_viajes
 
 - Importar la base de datos:
 Dentro de MySQL (usando TablePlus u otro cliente), importar los archivos SQL de las tablas viajes y testimoniales.
@@ -71,8 +70,8 @@ npm run dev
 El proyecto estará disponible en http://localhost:4000.
 
 - Notas adicionales
-Se usa el patrón MVC para una mejor organización del código.
-La conexión a la base de datos se configura en config/db.js.
-Los archivos de modelos en models/ gestionan la interacción con la base de datos.
-Las rutas están definidas en routes/ para una navegación estructurada.
+  - Se usa el patrón MVC para una mejor organización del código.
+  - La conexión a la base de datos se configura en config/db.js.
+  - Los archivos de modelos en models/ gestionan la interacción con la base de datos.
+  - Las rutas están definidas en routes/ para una navegación estructurada.
 
