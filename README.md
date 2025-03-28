@@ -34,16 +34,16 @@ La pagina principal muestra información sobre la agencia, tres viajes destacado
 - nodemon
   Recarga automatica del servicor en desarrollo
 
-Estructura del proyecto
+# Estructura del proyecto
 
-/agencia-viajes/
-├── config/        # Configuración de la base de datos
-├── controllers/   # Lógica de negocio y conexión entre modelos y vistas
-├── models/        # Modelos que interactúan con la base de datos
-├── views/         # Plantillas Pug para el frontend
-├── public/        # Archivos estáticos como imágenes y CSS
-├── routes/        # Definición de rutas para las distintas secciones
-└── package.json   # Dependencias y configuración del proyecto
+- /agencia-viajes/
+  - config/        # Configuración de la base de datos
+  - controllers/   # Lógica de negocio y conexión entre modelos y vistas
+  - models/        # Modelos que interactúan con la base de datos
+  - views/         # Plantillas Pug para el frontend
+  - public/        # Archivos estáticos como imágenes y CSS
+  - routes/        # Definición de rutas para las distintas secciones
+  - package.json   # Dependencias y configuración del proyecto
 
 # Instalación
 
