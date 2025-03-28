@@ -25,7 +25,7 @@ La pagina principal muestra información sobre la agencia, tres viajes destacado
 - Base de datos: MySQL (administrado con TablePlus)
 
 # Dependencias
--Middleware
+- Middleware
   Funciones para gestionar solicitudes y respuestas
   
 - dotenv
