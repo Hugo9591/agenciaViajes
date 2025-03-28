@@ -1,9 +1,9 @@
-## Agencia de Viajes
+# Agencia de Viajes
 
 Este proyecto es una página web de una agencia de viajes desarrollada con Node.js y Express, siguiendo el patrón de diseño MVC. 
 Permite a los usuarios explorar los viajes, conocer testimonios de clientes y agregar nuevos comentarios mediante un formulario validado.
 
-# Características
+## Características
 La pagina principal muestra información sobre la agencia, tres viajes destacados, descuentos y 3 testimonios de clientes.
 
 - Secciones principales
@@ -16,7 +16,7 @@ La pagina principal muestra información sobre la agencia, tres viajes destacado
 
 - Uso de imágenes e iconos para mejorar la experiencia del usuario.
 
-# Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - Backend: Node.js, Express.js
 
@@ -24,7 +24,7 @@ La pagina principal muestra información sobre la agencia, tres viajes destacado
 
 - Base de datos: MySQL (administrado con TablePlus)
 
-# Dependencias
+## Dependencias
 - Middleware
   Funciones para gestionar solicitudes y respuestas
   
@@ -34,7 +34,7 @@ La pagina principal muestra información sobre la agencia, tres viajes destacado
 - nodemon
   Recarga automatica del servicor en desarrollo
 
-# Estructura del proyecto
+## Estructura del proyecto
 
 - /agencia-viajes/
   - config/         Configuración de la base de datos
@@ -45,7 +45,7 @@ La pagina principal muestra información sobre la agencia, tres viajes destacado
   - routes/         Definición de rutas para las distintas secciones
   - package.json    Dependencias y configuración del proyecto
 
-# Instalación
+## Instalación
 
 - Clonar el repositorio:
 
